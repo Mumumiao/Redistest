@@ -13,7 +13,7 @@ public class Redistest {
 //        });
         System.out.println(jedis.sadd("testset","je"));
         jedis.smembers("testset").forEach(d->{
-            System.out.println(d+"newasdafaffa");
+            System.out.println(d+"newasdafaf");
         });
     }
 
